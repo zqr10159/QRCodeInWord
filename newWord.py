@@ -43,10 +43,10 @@ def create_table(document, tuopanhao, ):
 
     # 第一行 物料编码
     table.cell(0, 0).text = '物料编码'
-    # table.cell(0,1).text = '4JB9ES53022'
+    # table.cell(0,1).text = ''
     # 第二行 数量
     table.cell(1, 0).text = '数量'
-    # table.cell(1, 1).text = '72000'
+    # table.cell(1, 1).text = ''
     # 第三行 托盘号
     table.cell(2, 0).text = '托盘号'
     table.cell(2, 1).text = tuopanhao
@@ -54,7 +54,7 @@ def create_table(document, tuopanhao, ):
     # 第四行 名称规格
     table.cell(3, 0).text = '名称规格'
     table.cell(3, 1).merge(table.cell(3, 3))
-    # table.cell(3, 1).text = '模块二极管TPA4050S-2/150mil trench/含铅锡块0.30mm'
+    # table.cell(3, 1).text = ''
     # 第五行 No
     table.cell(4, 0).text = 'NO.'
     table.cell(4, 1).text = 'S.N.'
