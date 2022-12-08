@@ -4,7 +4,7 @@ def get(src):
 
     for i in range(len(src)):
 
-        data = src[i][0]
+        data = src[i]
         # 实例化QRCode生成qr对象
         qr = qrcode.QRCode(
             version=1,
